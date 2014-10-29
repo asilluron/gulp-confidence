@@ -1,0 +1,28 @@
+{
+  "name": "gulp-confidence",
+  "version": "0.0.0",
+  "description": "a gulp plugin for confidenceJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kingles/gulp-confidence.git"
+  },
+  "author": "Kingles(jmaligie@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kingles/gulp-confidence/issues"
+  },
+  "homepage": "https://github.com/Kingles/gulp-confidence",
+  "dependencies": {
+    "confidence": "^1.0.0",
+    "gulp-util": "^3.0.1",
+    "lodash": "^2.4.1",
+    "through2": "^0.6.3"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
